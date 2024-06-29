@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+    background-color: #1a1a1a;
+}
+
+.textscreen {
+    min-height: 100vh;
+    max-width: 42rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: #ffffff;
+    place-content: center;
+}
+
+.textscreen h1 {
+    line-height: 1.25;
+    font-weight: 700;
+    font-size: 3.75rem;
+}
+
+.textscreen h2 {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.navlist {
+    grid-gap: 1rem;
+    gap: 1rem;
+    display: flex;
+    margin-top: 1.2rem;
+}
+
+.navlist2 {
+    grid-gap: 1rem;
+    gap: 1rem;
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.theme-color {
+    color: rgb(145, 14, 233);
+}
