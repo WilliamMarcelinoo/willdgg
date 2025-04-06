@@ -14,7 +14,7 @@
 
 .textscreen {
     min-height: 100vh;
-    max-width: 42rem;
+    max-width: 50px;
     display: flex;
     flex-direction: column;
     margin: auto;
