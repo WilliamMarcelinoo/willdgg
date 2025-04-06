@@ -15,15 +15,6 @@
     z-index: 0;
 }
 
-.wave-background svg {
-  position: fixed;
-  width: 200%;
-  height: 100%;
-  opacity: 0.2;
-  z-index: 1;
-  animation: moveWaves 30s linear infinite;
-}
-
 .textscreen {
     position: relative;  /* Para controlar z-index */ 
     min-height: 100vh;
@@ -136,13 +127,4 @@ h2 {
     transform: translateY(40px);
     animation: fadeInUp 1s ease-out forwards;
     animation-delay: 2.2s; /* Pode ajustar dependendo da ordem dos elementos */
-}
-
-@keyframes moveWaves {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
 }
