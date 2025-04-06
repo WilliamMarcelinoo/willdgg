@@ -65,14 +65,14 @@
     color: rgb(145, 14, 233);
 }
 
-/* ANIMAÇÕES */
-    @keyframes slideInLeft {
+/* ANIMAÇÃO GERAL */
+    @keyframes fadeSlideUp {
       from {
-        transform: translateX(-100%);
         opacity: 0;
+        transform: translateY(30px);
       }
       to {
-        transform: translateX(0);
         opacity: 1;
+        transform: translateY(0);
       }
     }
