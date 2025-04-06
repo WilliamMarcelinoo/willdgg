@@ -124,3 +124,19 @@ h2 {
     animation: fadeInUp 1s ease-out forwards;
     animation-delay: 2.2s; /* Pode ajustar dependendo da ordem dos elementos */
 }
+
+.wave-background svg {
+  width: 200%;
+  height: 100%;
+  opacity: 0.2;
+  animation: moveWaves 30s linear infinite;
+}
+
+@keyframes moveWaves {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
