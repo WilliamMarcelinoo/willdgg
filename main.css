@@ -17,11 +17,10 @@
 
 .wave-background svg {
   position: fixed;
-  width: 100%;
+  width: 200%;
   height: 100%;
   opacity: 0.2;
   z-index: 1;
-  background: transparent;
   animation: moveWaves 30s linear infinite;
 }
 
