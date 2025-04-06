@@ -117,3 +117,10 @@ h2 {
 .navlist a:nth-child(5) { animation-delay: 1.6s; }
 .navlist a:nth-child(6) { animation-delay: 1.8s; }
 .navlist a:nth-child(7) { animation-delay: 2s; }
+
+.discodd {
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeInUp 1s ease-out forwards;
+    animation-delay: 2.2s; /* Pode ajustar dependendo da ordem dos elementos */
+}
