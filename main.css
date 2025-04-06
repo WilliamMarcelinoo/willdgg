@@ -44,6 +44,9 @@
 }
 
 .navlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-gap: 1rem;
     gap: 1rem;
     display: flex;
