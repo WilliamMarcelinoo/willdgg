@@ -53,6 +53,16 @@
     margin-top: 8px;
 }
 
+.bio-text {
+    min-height: 100vh;
+    max-width: 32rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: #ffffff;
+    place-content: center;
+}
+
 .theme-color {
     color: rgb(145, 14, 233);
 }
