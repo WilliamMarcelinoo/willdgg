@@ -65,14 +65,55 @@
     color: rgb(145, 14, 233);
 }
 
-/* ANIMAÇÃO GERAL */
-    @keyframes fadeSlideUp {
-      from {
+/* Animações de entrada suaves */
+@keyframes fadeInUp {
+    0% {
         opacity: 0;
-        transform: translateY(30px);
-      }
-      to {
+        transform: translateY(40px);
+    }
+    100% {
         opacity: 1;
         transform: translateY(0);
-      }
     }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Aplica as animações */
+.img {
+    animation: fadeInUp 1s ease-out forwards;
+    opacity: 0;
+    animation-delay: 0.2s;
+}
+
+h1 {
+    animation: fadeInUp 1s ease-out forwards;
+    opacity: 0;
+    animation-delay: 0.4s;
+}
+
+h2 {
+    animation: fadeInUp 1s ease-out forwards;
+    opacity: 0;
+    animation-delay: 0.6s;
+}
+
+.navlist a {
+    opacity: 0;
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+.navlist a:nth-child(1) { animation-delay: 0.8s; }
+.navlist a:nth-child(2) { animation-delay: 1s; }
+.navlist a:nth-child(3) { animation-delay: 1.2s; }
+.navlist a:nth-child(4) { animation-delay: 1.4s; }
+.navlist a:nth-child(5) { animation-delay: 1.6s; }
+.navlist a:nth-child(6) { animation-delay: 1.8s; }
+.navlist a:nth-child(7) { animation-delay: 2s; }
