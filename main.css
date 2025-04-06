@@ -64,3 +64,15 @@
 .theme-color {
     color: rgb(145, 14, 233);
 }
+
+/* ANIMAÇÕES */
+    @keyframes slideInLeft {
+      from {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
