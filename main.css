@@ -48,6 +48,10 @@
     margin-bottom: 0.5rem;
 }
 
+.discodd {
+    margin-top: 8px;
+}
+
 .theme-color {
     color: rgb(145, 14, 233);
 }
