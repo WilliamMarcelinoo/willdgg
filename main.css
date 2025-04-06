@@ -25,7 +25,7 @@
 }
 
 .textscreen {
-    position: fixed;  /* Para controlar z-index */ 
+    position: relative;  /* Para controlar z-index */ 
     min-height: 100vh;
     max-width: 100%;
     display: flex;
