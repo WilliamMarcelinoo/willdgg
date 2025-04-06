@@ -23,6 +23,8 @@
 }
 
 .textscreen {
+    position: relative;  /* Para controlar z-index */
+    z-index: 1;  
     min-height: 100vh;
     max-width: 100%;
     display: flex;
