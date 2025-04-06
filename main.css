@@ -110,14 +110,6 @@ h2 {
     animation: fadeIn 0.8s ease-out forwards;
 }
 
-.navlist a:nth-child(1) { animation-delay: 0.8s; }
-.navlist a:nth-child(2) { animation-delay: 1s; }
-.navlist a:nth-child(3) { animation-delay: 1.2s; }
-.navlist a:nth-child(4) { animation-delay: 1.4s; }
-.navlist a:nth-child(5) { animation-delay: 1.6s; }
-.navlist a:nth-child(6) { animation-delay: 1.8s; }
-.navlist a:nth-child(7) { animation-delay: 2s; }
-
 .discodd {
     opacity: 0;
     transform: translateY(40px);
