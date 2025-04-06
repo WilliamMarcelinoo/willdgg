@@ -13,6 +13,15 @@
     display: flex;
 }
 
+.wave-background svg {
+  position: fixed;
+  width: 200%;
+  height: 100%;
+  opacity: 0.2;
+  z-index: -1;
+  animation: moveWaves 30s linear infinite;
+}
+
 .textscreen {
     min-height: 100vh;
     max-width: 100%;
@@ -123,15 +132,6 @@ h2 {
     transform: translateY(40px);
     animation: fadeInUp 1s ease-out forwards;
     animation-delay: 2.2s; /* Pode ajustar dependendo da ordem dos elementos */
-}
-
-.wave-background svg {
-  position: fixed;
-  width: 200%;
-  height: 100%;
-  opacity: 0.2;
-  z-index: -1;
-  animation: moveWaves 30s linear infinite;
 }
 
 @keyframes moveWaves {
