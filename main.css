@@ -8,10 +8,11 @@
 }
 
 .min-h-screen {
+    position: fixed;
     min-height: 100vh;
     background-color: #1a1a1a;
     display: flex;
-    opacity: 0.2;
+    z-index: 0;
 }
 
 .wave-background svg {
@@ -19,7 +20,7 @@
   width: 200%;
   height: 100%;
   opacity: 0.2;
-  z-index: -1;
+  z-index: 1;
   animation: moveWaves 30s linear infinite;
 }
 
