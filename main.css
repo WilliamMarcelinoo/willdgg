@@ -127,3 +127,21 @@ h2 {
     animation: fadeInUp 1s ease-out forwards;
     animation-delay: 2.2s; /* Pode ajustar dependendo da ordem dos elementos */
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    .navlist {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
